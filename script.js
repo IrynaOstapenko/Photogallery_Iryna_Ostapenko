@@ -1,7 +1,7 @@
 const menu = document.querySelector('nav');
 const hamburger= document.querySelector('.hamburger-button');
-const closeIcon= document.querySelector('.close-icon');
-const menuIcon = document.querySelector('.hamburger-menu-icon');
+const closeIcon= document.querySelector('.hamburger-button__close-icon');
+const menuIcon = document.querySelector('.hamburger-button__menu-icon');
 
 function toggleMenu() {
   if (menu.classList.contains('show-menu')) {
